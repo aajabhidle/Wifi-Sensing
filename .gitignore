@@ -129,9 +129,8 @@ tensorboard/
 *.rar
 *.7z
 
-# Local project guides & generated summaries
-docs/WiFi_Sensing_Project_Guide.pdf
-docs/generate_project_pdf.py
+# Documentation, presentations, and local guides
+docs/
 
 # Temporary Office lock files
 ~$*.pptx
