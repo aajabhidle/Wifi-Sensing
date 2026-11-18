@@ -1,0 +1,135 @@
+# =============================================================================
+# Python & Bytecode
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# C extensions / build artifacts
+*.c
+*.o
+*.obj
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+
+# Tooling, Testing & Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# =============================================================================
+# Editors & Operating System Cruft
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# =============================================================================
+# Raw Capture & Participant Datasets (Tens of GBs)
+# =============================================================================
+BHU/
+LHU/
+RHU/
+Vardaan/
+Nikita/
+dataset/
+siwis_data/
+siwis_percom/
+kachra/
+video_small/
+
+# =============================================================================
+# Cloned Repositories, Submodules & Backups
+# =============================================================================
+Codebase/
+PicoScenes-Python-Toolbox/
+siwis/
+
+# =============================================================================
+# Raw CSI, Packet Captures & Large Media
+# =============================================================================
+*.csi
+*.pcap
+*.pcapng
+*.rx
+*.mat
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.webm
+*.task
+
+# =============================================================================
+# Machine Learning Checkpoints, Large Arrays & Weights
+# =============================================================================
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.weights
+*.bin
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+
+# =============================================================================
+# Experiment Results, Generated Outputs & Visualizations
+# =============================================================================
+results_5p/
+scenario2_pooled/
+scenario3_lopo/
+snn_results/
+results/
+work/
+segment_kit/
+paper_examples_csi/
+presentation_build/
+presentation_output/
+predictions_viz/
+deck_preview/
+
+# Logs & Monitoring
+*.log
+runs/
+logs/
+outputs/
+wandb/
+tensorboard/
+
+# Compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Temporary Office lock files
+~$*.pptx
+~$*.docx
+~$*.xlsx
