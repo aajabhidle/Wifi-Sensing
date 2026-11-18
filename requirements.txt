@@ -1,0 +1,19 @@
+# Core Machine Learning & Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Scientific Computing & Data Processing
+numpy>=1.23.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Computer Vision & Media
+opencv-python>=4.7.0
+Pillow>=9.5.0
+mediapipe>=0.10.0
+
+# Plotting & Visualization
+matplotlib>=3.7.0
+
+# Document & Presentation Automation
+python-pptx>=0.6.21
